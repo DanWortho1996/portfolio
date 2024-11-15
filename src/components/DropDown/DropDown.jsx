@@ -14,9 +14,9 @@ const Dropdown = () => {
       <button onClick={toggleDropdown} className="dropdown-toggle">Menu</button>
       {isOpen && (
         <div className="dropdown-menu">
-          <a href="#option1" className="dropdown-item">Option 1</a>
-          <a href="#option2" className="dropdown-item">Option 2</a>
-          <a href="#option3" className="dropdown-item">Option 3</a>
+          <a href="#option1" className="dropdown-item">Code</a>
+          <a href="#option2" className="dropdown-item">Profile</a>
+          <a href="#option3" className="dropdown-item">Comments</a>
         </div>
       )}
     </div>
