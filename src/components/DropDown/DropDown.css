@@ -1,0 +1,37 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Drowndown Menu button it's self */
+.dropdown-toggle {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5vh;
+}
+
+/* Drown Menu it's self */
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 10px;
+}
+
+/* All the text option in Dropdown Menu */
+.dropdown-item {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+/* Dropdown Menu option selection background colour */
+.dropdown-item:hover {
+    background-color: darkgrey;
+}  
