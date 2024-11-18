@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1 className="header-title">My Application</h1>
+      <h1 className="header-title">Portfolio</h1>
       <div className="dropdown">
         <button onClick={toggleDropdown} className="dropdown-toggle">
           Menu
