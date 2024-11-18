@@ -2,17 +2,54 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(247, 246, 247);
+  background-color: darkgrey;
   padding: 10px 20px;
   color: black;
   border-radius: 5vh;
 }
-  
+
 .header-title {
   margin: 0;
   font-size: 1.5em;
 }
-  
-.header .dropdown {
+
+.dropdown {
   position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5vh;
+}
+
+.dropdown-toggle:hover {
+  background-color: black;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: grey;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 10px;
+  border-radius: 5vh;
+}
+
+.dropdown-item {
+  padding: 16px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.dropdown-item:hover {
+  background-color: darkgrey;
+  border-radius: 10vh;
 }
