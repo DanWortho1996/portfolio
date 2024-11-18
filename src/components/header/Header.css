@@ -13,6 +13,38 @@
   font-size: 1.5em;
 }
 
+.search-bar {
+  position: relative;
+  margin-left: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5vh;
+}
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  position: absolute;
+  background-color: grey;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 100%;
+  border-radius: 5vh;
+}
+
+.search-results li {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5vh;
+  background-color: darkgrey;
+  color: whitesmoke;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
