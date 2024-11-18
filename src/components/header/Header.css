@@ -45,6 +45,23 @@
   color: whitesmoke;
 }
 
+.search-results button {
+  width: 100%;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 16px;
+  text-align: left;
+  border-radius: 5vh;
+}
+
+.search-results button:hover {
+  background-color: grey;
+}
+
+
 .dropdown {
   position: relative;
   display: inline-block;
