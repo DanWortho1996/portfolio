@@ -49,24 +49,12 @@ const Header = ({ data }) => {
   return (
     <header className="header">
       <h1 className="header-title">Portfolio</h1>
-      <div className="dropdown">
-        <button onClick={toggleDropdown} className="dropdown-toggle">
-          Menu
-        </button>
-        {isOpen && (
-          <div className="dropdown-menu">
-            <Link to="/" className="dropdown-item" onClick={() => setIsOpen(false)}>Home</Link>
-            <Link to="/code" className="dropdown-item" onClick={() => setIsOpen(false)}>Code</Link>
-            <Link to="/profilepage" className="dropdown-item" onClick={() => setIsOpen(false)}>Profile</Link>
-          </div>
-        )}
-      </div>
       <div className="search-bar" ref={searchBarRef}>
         <input
           type="text"
           value={query}
           onChange={handleInputChange}
-          placeholder="Search..."
+          placeholder="Search Code..."
         />
         {results.length > 0 && (
           <ul className="search-results">
@@ -78,6 +66,18 @@ const Header = ({ data }) => {
               </li>
             ))}
           </ul>
+        )}
+      </div>
+      <div className="dropdown">
+        <button onClick={toggleDropdown} className="dropdown-toggle">
+          Menu
+        </button>
+        {isOpen && (
+          <div className="dropdown-menu">
+            <Link to="/" className="dropdown-item" onClick={() => setIsOpen(false)}>Home</Link>
+            <Link to="/code" className="dropdown-item" onClick={() => setIsOpen(false)}>Code</Link>
+            <Link to="/profilepage" className="dropdown-item" onClick={() => setIsOpen(false)}>Profile</Link>
+          </div>
         )}
       </div>
     </header>
