@@ -8,6 +8,7 @@ const Header = ({ data }) => {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const searchBarRef = useRef(null);
+  const dropdownRef = useRef(null);
   const navigate = useNavigate();
 
   const toggleDropdown = () => {
@@ -28,8 +29,12 @@ const Header = ({ data }) => {
   };
 
   const handleClickOutside = (event) => {
-    if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
+    if (
+      searchBarRef.current && !searchBarRef.current.contains(event.target) &&
+      dropdownRef.current && !dropdownRef.current.contains(event.target)
+    ) {
       setResults([]);
+      setIsOpen(false);
     }
   };
 
@@ -68,7 +73,7 @@ const Header = ({ data }) => {
           </ul>
         )}
       </div>
-      <div className="dropdown">
+      <div className="dropdown" ref={dropdownRef}>
         <button onClick={toggleDropdown} className="dropdown-toggle">
           Menu
         </button>
