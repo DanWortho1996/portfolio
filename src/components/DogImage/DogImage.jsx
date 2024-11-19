@@ -13,9 +13,9 @@ const DogImage = () => {
   const fetchDogImage = async () => {
     setLoading(true);
     try {
-      const response = await fetch('https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_dogs=true&order=RANDOM&page=0&limit=1', {
+      const response = await fetch('https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1', {
         headers: {
-          'x-api-key': process.env.REACT_APP_API_KEY
+          'x-api-key': 'live_v8FtZXpl3FaLd91eNGMLuSeXRDWGOvvJfEHDccAL3XFTzeHmXwGGRJdzcUXykIWz'
         }
       });
       if (!response.ok) throw new Error('Network response was not ok');
