@@ -43,8 +43,7 @@ const DogImage = () => {
 
   return (
     <div className="dog-container">
-      <h1>Dog of the Day</h1>
-      <button className="randomize-button" onClick={handleRandomize}>Randomize</button>
+      <h1>Dog of The Hour</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
@@ -52,6 +51,7 @@ const DogImage = () => {
           <div className="dog-image-wrapper">
             <div className={`dog-image-container ${animate ? 'bounce-out' : ''}`}>
               <img src={dogImage} alt="Dog" className="dog-image" />
+              <button className="randomize-button" onClick={handleRandomize}>Randomize</button>
             </div>
           </div>
         ) : (
