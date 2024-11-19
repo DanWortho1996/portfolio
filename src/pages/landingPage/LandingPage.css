@@ -1,0 +1,22 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+  
+.landing-page-header {
+    background-color: darkgrey;
+    padding: 20px;
+    border-radius: 5vh;
+}
+  
+.landing-page-main {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.introduction {
+    margin-bottom: 20px;
+}
+  
