@@ -1,3 +1,4 @@
+/* LandingPage.css */
 .landing-page {
     display: flex;
     flex-direction: column;
@@ -31,20 +32,34 @@
     margin: 20px 0;
 }
   
-.api-image {
+.image-section {
+    position: relative;
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
   
-.oldProject {
-    width: 80%;
+.image-section h2 {
+    position: absolute;
+    top: -40px;  /* Adjust this value based on your needs */
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.api-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-top: 20px;
+    border-radius: 5vh;
+    padding: 20px;
 }
   
 .api-image > div {
     margin: 0 10px;
 }
-  
+
+.oldProject {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

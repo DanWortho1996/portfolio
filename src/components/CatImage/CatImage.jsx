@@ -43,7 +43,7 @@ const CatImage = () => {
 
   return (
     <div className="cat-container">
-      <h1>Cat's of The Year</h1>
+      <h1>Cat of The Year</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
