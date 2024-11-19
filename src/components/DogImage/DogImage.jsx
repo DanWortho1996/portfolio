@@ -43,7 +43,7 @@ const DogImage = () => {
 
   return (
     <div className="dog-container">
-      <h1>Dog of The Hour</h1>
+      <h1>Dog's of The Year</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (

@@ -12,10 +12,39 @@
 }
   
 .landing-page-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
     text-align: center;
 }
   
 .introduction {
+    width: 80%;
     margin-bottom: 20px;
 }
+  
+.image-sections {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+}
+  
+.api-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.oldProject {
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.api-image > div {
+    margin: 0 10px;
+}
+  
