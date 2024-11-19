@@ -15,7 +15,7 @@ const CatImage = () => {
     try {
       const response = await fetch('https://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1', {
         headers: {
-          'x-api-key': 'your-cat-api-key'
+          'x-api-key': 'live_MkIiIABgy46ekwWnzDmFl3uhZV8J230EI4T94JrEieFpjdmy4nnegbpc5va8xumP'
         }
       });
       if (!response.ok) throw new Error('Network response was not ok');
@@ -37,8 +37,8 @@ const CatImage = () => {
   };
 
   const handleRandomize = () => {
-    setAnimate(true); // This triggers animation
-    setTimeout(fetchCatImage, 500); // This will delay fetching a new image to allow animation to complete
+    setAnimate(true); //This triggers animation
+    setTimeout(fetchCatImage, 500); //This will delay fetching a new image to allow animation to complete
   };
 
   return (
