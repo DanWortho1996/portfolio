@@ -8,6 +8,7 @@
   
 .landing-page-header {
     background-color: darkgrey;
+    color: whitesmoke;
     padding: 20px;
     border-radius: 5vh;
 }
@@ -40,7 +41,7 @@
   
 .image-section h2 {
     position: absolute;
-    top: -40px;  /* Adjust this value based on your needs */
+    top: -40px;
     left: 50%;
     transform: translateX(-50%);
 }

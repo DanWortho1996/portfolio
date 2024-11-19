@@ -4,6 +4,7 @@ import LandingPage from './pages/landingPage/LandingPage';
 import CodePage from './pages/codePage/CodePage';
 import ProfilePage from './pages/profilePage/ProfilePage';
 import { data } from './data';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           </Routes>
         </main>
       </Router>
+      <Footer />
     </div>
   );
 }

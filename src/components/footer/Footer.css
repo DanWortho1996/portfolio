@@ -1,0 +1,42 @@
+/* Footer.css */
+.footer {
+    background-color: grey;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    border-top: 3px solid #ccc;
+    border-radius: 5vh;
+}
+  
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}
+  
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+  
+.footer-links li {
+    margin: 0 15px;
+}
+  
+.footer-links a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-style: italic;
+}
+  
+.footer-links a:hover {
+    text-decoration: underline;
+}
+  
