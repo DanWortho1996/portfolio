@@ -20,7 +20,7 @@ const DogImage = () => {
       });
       if (!response.ok) throw new Error('Network response was not ok');
       const data = await response.json();
-      console.log('API Response:', data); // This will log the API response
+      console.log('API Response:', data); //This will log the API response
       if (data && data.length > 0) {
         const dogData = data[0];
         setDogImage(dogData.url);
