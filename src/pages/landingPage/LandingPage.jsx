@@ -1,4 +1,5 @@
 import DogImage from '../../components/DogImage/DogImage';
+import CatImage from '../../components/CatImage/CatImage';
 import './LandingPage.css';
 
 const LandingPage = () => {
@@ -12,9 +13,13 @@ const LandingPage = () => {
           <h2>About Me I Guess...</h2>
           <p>I have always had an interest for tech and software. I enjoyed breaking down (taking apart) old consoles (e.g., Xbox's, PlayStation's, and Computers) to fix and repair them. Even in movies, I was always fascinated by the tech side because it's very innovative and allows for creative ideas. Personally, I prefer back-end development, working on functions and problem-solving. There is so much more to back-end, but these are my favorite areas. I started coding properly in 2021, studying Level 2 Software Development in Python. In 2024, I completed another course in JavaScript (JS), including JS, React, Vite, JSDOM, JSDOM+, front-end development, back-end development, MongoDB, and Sequelize. After passing the Master Course in October 2024, I received my certificate as a Full Stack Developer.</p>
         </section>
-        <section className="dog-image-section">
-          <h2>Try Out The API's</h2>
-          <DogImage />
+        <section className="image-sections">
+          <div className="api-image">
+            <DogImage />
+          </div>
+          <div className="api-image">
+            <CatImage />
+          </div>
         </section>
         <section className="oldProject">
           <h2>How I Originally Started Out...</h2>
