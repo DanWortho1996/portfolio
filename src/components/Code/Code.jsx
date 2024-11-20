@@ -87,6 +87,26 @@ const Code = () => {
             </a>
             <p>This was in week 8, I was to learn the difference between sequelize and MongoDB and they really isn't much difference besides the Schema and Methods which can used to add a user, find a user or find all users and/or even delete a user or all users on the database. I still enjoyed this as it was Back-End Development and a lot of riggerous testing to make sure all is correct and working efficiently.</p>
         </div>
+        <div className='project'>
+            <header className='project-header'>
+                <h3>Passwords</h3>
+            </header>
+            <a href='https://github.com/DanWortho1996/week9_C.N_auth_mysql2/blob/main/src/middleware/auth.js' alt="passwords" target='_blank'>Passwords</a>
+            <a href='https://github.com/DanWortho1996/week9_C.N_auth_mysql2/blob/main/src/middleware/auth.js' target='_blank'>
+            <img src="/images/week-9-passwords.PNG" />
+            </a>
+            <p>Starting week 9 I went in with high hopes learning more Back-End Development especially on passwords. I learned how to hashPass and comparePass a password, one being covering password input on Front-End so it is not visible when inpuuting in the password field, two was to protect the pass from the database so if the database was ever hacked or checked by staff member the password would be shown as a bunch of random letters and number from upper-case to lower-case and the characters given/shown wont match the password.</p>
+        </div>
+        <div className='project'>
+            <header className='project-header'>
+                <h3>Fetch Data-Base Connection</h3>
+            </header>
+            <a href='https://github.com/DanWortho1996/week-9-react-auth-starter/blob/main/src/utils/fetch.js' alt="fetch-database" target="_blank">Fetch Data-Base Connection</a>
+            <a href='https://github.com/DanWortho1996/week-9-react-auth-starter/blob/main/src/utils/fetch.js' target='_blank'>
+            <img src="/images/week-10-connecting-db.PNG" />
+            </a>
+            <p>When I went into week 10, I went in with the knowledge of using and making a database, I went in with confidence knowing to write the function out of the top of my mind. Here we learned how to connect the Front-End & Back-End together linking the Back-end database as the main database and using the Front-End to store new users to the database.</p>
+        </div>
       </div>
     </div>
   );
