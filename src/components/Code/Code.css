@@ -10,7 +10,7 @@
   
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates responsive grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* This creates responsive grid layout */
     gap: 20px; /* Adds space between the projects */
 }
   

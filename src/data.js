@@ -53,16 +53,6 @@ export const data = [
       title: 'PawPals',
       content: 'Final Project',
       link: 'https://prismatic-crumble-cf1d23.netlify.app/'
-    },
-    {
-      title: 'Profile Page',
-      content: 'Details about my profile and background.',
-      link: '/profilepage'
-    },
-    {
-      title: 'Landing Page',
-      content: 'Overview of my portfolio and highlights.',
-      link: '/'
     }
   ];
   
