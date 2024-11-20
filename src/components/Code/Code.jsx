@@ -63,9 +63,29 @@ const Code = () => {
             </header>
             <a href='https://animated-bunny-345a5b.netlify.app/' alt="calculator" target='_blank'>Calculator App</a>
             <a href='https://animated-bunny-345a5b.netlify.app/' target="_blank">
-            <img src="/images/week-5-work-calculator.PNG" />
+            <img src="/images/week-6-work-calculator.PNG" />
             </a>
             <p>Here is where I started to focus on my CSS moe than I expected too, when I built this app it was extremely plain, they was no background or styling just plain text black and white, they was no CSS at all so I spent a couple hours learning through certain parts I wanted to make look good on my calculator app. I'm no good at maths though so how about you give it a go instead.</p>
+        </div>
+        <div className='project'>
+            <header className='project-header'>
+                <h3>Express</h3>
+            </header>
+            <a href='https://github.com/DanWortho1996/week7_C.N_express/blob/main/src/books/model.js' alt="express" target="_blank">Express</a>
+            <a href='https://github.com/DanWortho1996/week7_C.N_express/blob/main/src/books/model.js' target="_blank">
+            <img src="/images/week-7-express.PNG" />
+            </a>
+            <p>During week 7 we began to learn more about express and data types, like MongoDB & Sequelize. During this week I learned how to build a model schema and a database. I was also able to learn and make how to add users (books) to the database. I really enjoyed this side of coding as it is more Back-End Development. Feel free to check out my code, I hope you like it!</p>
+        </div>
+        <div className='project'>
+            <header className='project-header'>
+                <h3>Sequelize</h3>
+            </header>
+            <a href='https://github.com/DanWortho1996/week8_C.N_sequelize/blob/main/src/db/connection.js' alt="sequelize" target='_blank'>Sequelize</a>
+            <a href='https://github.com/DanWortho1996/week8_C.N_sequelize/blob/main/src/db/connection.js' target='_blank'>
+            <img src="/images/week-8-sequelize.PNG" />
+            </a>
+            <p>This was in week 8, I was to learn the difference between sequelize and MongoDB and they really isn't much difference besides the Schema and Methods which can used to add a user, find a user or find all users and/or even delete a user or all users on the database. I still enjoyed this as it was Back-End Development and a lot of riggerous testing to make sure all is correct and working efficiently.</p>
         </div>
       </div>
     </div>
