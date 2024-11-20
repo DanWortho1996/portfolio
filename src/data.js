@@ -3,4 +3,3 @@ export const data = [
     { title: 'Coding', content: 'Content for software development', link: '/code' },
     { title: 'Profile Page', content: 'Content for profile page', link: '/profilepage' },
 ];
-  
