@@ -107,6 +107,17 @@ const Code = () => {
             </a>
             <p>When I went into week 10, I went in with the knowledge of using and making a database, I went in with confidence knowing to write the function out of the top of my mind. Here we learned how to connect the Front-End & Back-End together linking the Back-end database as the main database and using the Front-End to store new users to the database.</p>
         </div>
+        <div className='project'>
+            <header className='project-header'>
+                <h3>PawPals</h3>
+            </header>
+            <a href='https://prismatic-crumble-cf1d23.netlify.app/' alt="final-project" target="_blank">Final Project</a>
+            <a href='https://prismatic-crumble-cf1d23.netlify.app/' target="_blank">
+            <img src="/images/week-11-12-final-project-home-page.PNG" />
+            <img src="/images/week-11-12-final-project.PNG" />
+            </a>
+            <p>In our last 2 weeks on the Master Course we was all put into a group and had to collab together on making a app. We decided to come up with a Dog Walking App Community Based, helping others wanting to connect with people and walk their dogs together, maybe even go on dog dates for the dogs. It is intended to be used for Dog Walkers who want to socialise with other Dog Walkers and to also give their own dogs a chance to meet other new dogs and play in the park.</p>
+        </div>
       </div>
     </div>
   );
