@@ -1,0 +1,42 @@
+/* Code.css */
+.code-page {
+    padding: 20px;
+    text-align: center;
+}
+  
+.code-header {
+    margin-bottom: 20px;
+}
+  
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the top of the container */
+    flex-wrap: wrap; /* Ensure projects wrap to the next line on smaller screens */
+    gap: 20px; /* Adds space between the projects */
+}
+  
+.project {
+    flex: 1;
+    min-width: 300px; /* Ensures a minimum width for responsiveness */
+    max-width: 45%; /* Ensures the projects don't take up more than 45% each */
+    background-color: #f4f4f4; /* Example background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.project-header {
+    margin-bottom: 10px;
+}
+  
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.project p {
+    margin-top: 10px;
+}
+  
