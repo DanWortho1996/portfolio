@@ -12,13 +12,11 @@ const App = () => {
     <div className="App">
       <Router>
         <Header data={data} />
-        <main>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/code" element={<CodePage />} />
             <Route path="/profilepage" element={<ProfilePage />} />
           </Routes>
-        </main>
       </Router>
       <Footer />
     </div>
