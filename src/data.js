@@ -55,4 +55,3 @@ export const data = [
       link: 'https://prismatic-crumble-cf1d23.netlify.app/'
     }
   ];
-  
