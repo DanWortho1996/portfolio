@@ -1,0 +1,81 @@
+.profile-card {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+  
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the header */
+    position: relative;
+    margin-bottom: 20px;
+}
+  
+.profile-header h1 {
+    font-size: 2.5em;
+    color: darkslategrey;
+    margin: 0;
+    z-index: 1; /* Ensure the header is above other elements */
+    text-align: center;
+    padding: 50px;
+}
+  
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0; /* Align image to the left */
+}
+  
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+  
+.bio-section, .skills-section, .contact-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.bio-section h2, .skills-section h2, .contact-section h2 {
+    font-size: 1.8em;
+    color: darkslategrey;
+}
+  
+.skills-section .skill {
+    background: darkgrey;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+  
+.skills-section .skill h3 {
+    margin: 0;
+}
+  
+.skills-section .skill p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: white;
+    background: grey;
+    padding: 10px;
+    border-radius: 5vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.contact-section p {
+    margin: 5px 0;
+    color: black;
+    font-style: bold;
+}  
