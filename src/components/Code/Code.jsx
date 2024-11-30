@@ -87,7 +87,7 @@ const Code = () => {
           <a href='https://animated-bunny-345a5b.netlify.app/' target="_blank">
             <img src="/images/week-6-work-calculator.PNG" />
           </a>
-          <p>Here is where I started to focus on my CSS more than I expected to, when I built this app it was extremely plain. There was no background or styling just plain text black and white, there was no CSS at all so I spent a couple hours learning through certain parts I wanted to make look good on my calculator app. I'm no good at maths though so how about you give it a go instead.</p>
+          <p>Here is where I started to focus on my CSS more than I expected to, when I built this app it was extremely plain. There was no background or styling just plain text black and white, there was no CSS at all so I spent a couple hours learning through certain parts I wanted to make look good on my calculator app. I am no good at maths though so how about you give it a go instead.</p>
         </div>
         <div id="Express" className='project' ref={projectRefs['Express']}>
           <header className='project-header'>
@@ -107,7 +107,7 @@ const Code = () => {
           <a href='https://github.com/DanWortho1996/week8_C.N_sequelize/blob/main/src/db/connection.js' target='_blank'>
             <img src="/images/week-8-sequelize.PNG" />
           </a>
-          <p>This was in week 8, I was to learn the difference between sequelize and MongoDB and there really isn't much difference besides the Schema and Methods which can used to add a user, find a user or find all users and/or even delete a user or all users on the database. I still enjoyed this as it was Back-End Development and a lot of rigorous testing to make sure all is correct and working efficiently.</p>
+          <p>This was in week 8, I was to learn the difference between sequelize and MongoDB and there really is not much difference besides the Schema and Methods which can used to add a user, find a user or find all users and/or even delete a user or all users on the database. I still enjoyed this as it was Back-End Development and a lot of rigorous testing to make sure all is correct and working efficiently.</p>
         </div>
         <div id="Passwords" className='project' ref={projectRefs['Passwords']}>
           <header className='project-header'>
