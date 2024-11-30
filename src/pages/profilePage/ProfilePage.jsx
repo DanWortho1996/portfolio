@@ -1,6 +1,10 @@
+import ProfileCard from "../../components/profileContainer/ProfileCard/ProfileCard";
+
 const ProfilePage = () => {
   return (
-    <div>ProfilePage</div>
+    <div>
+      <ProfileCard />
+    </div>
   )
 }
 
