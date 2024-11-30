@@ -9,7 +9,7 @@
 .profile-header {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the header */
+    justify-content: center; /* Centers the header */
     position: relative;
     margin-bottom: 20px;
 }
@@ -30,7 +30,7 @@
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: absolute;
-    left: 0; /* Align image to the left */
+    left: 0;
 }
   
 .profile-content {
