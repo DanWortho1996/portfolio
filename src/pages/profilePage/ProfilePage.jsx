@@ -5,7 +5,7 @@ const ProfilePage = () => {
     <div>
       <ProfileCard />
     </div>
-  )
-}
+  );
+};
 
 export default ProfilePage;
