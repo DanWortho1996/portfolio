@@ -14,6 +14,7 @@ const Code = () => {
     'Passwords': useRef(null),
     'Fetch Data-Base Connection': useRef(null),
     'PawPals': useRef(null),
+    'Quiz-Game': useRef(null)
   };
 
   useEffect(() => {
@@ -142,7 +143,7 @@ const Code = () => {
         </div>
         <div id='Quiz-Game'  className='project' ref={projectRefs['Quiz-Game']}>
             <header className='project-header'>
-                <h3>PawPals</h3>
+                <h3>Quiz Game</h3>
             </header>
             <a href='https://taupe-maamoul-a4980f.netlify.app/' alt="quiz-project" target="_blank">Quiz Game</a>
             <a href='https://taupe-maamoul-a4980f.netlify.app/' target="_blank">
