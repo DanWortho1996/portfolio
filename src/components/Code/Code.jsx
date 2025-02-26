@@ -27,7 +27,7 @@ const Code = () => {
   return (
     <div className="code-page">
       <header className="code-header">
-        <h1>Welcome to My Code Space</h1>
+        <h1>My Code Space</h1>
       </header>
       <div className="projects-container">
         <div id="HTML & CSS" className="project" ref={projectRefs['HTML & CSS']}>
