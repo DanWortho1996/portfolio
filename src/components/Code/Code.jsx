@@ -14,7 +14,7 @@ const Code = () => {
     'Passwords': useRef(null),
     'Fetch Data-Base Connection': useRef(null),
     'PawPals': useRef(null),
-    'Quiz-Game': useRef(null)
+    'Quiz Game': useRef(null)
   };
 
   useEffect(() => {
@@ -141,7 +141,7 @@ const Code = () => {
             </a>
             <p>In our last 2 weeks on the Master Course we was all put into a group and had to collab together on making a app. We decided to come up with a Dog Walking App Community Based, helping others wanting to connect with people and walk their dogs together, maybe even go on dog dates for the dogs. It is intended to be used for Dog Walkers who want to socialise with other Dog Walkers and to also give their own dogs a chance to meet other new dogs and play in the park.</p>
         </div>
-        <div id='Quiz-Game'  className='project' ref={projectRefs['Quiz-Game']}>
+        <div id='Quiz Game'  className='project' ref={projectRefs['Quiz Game']}>
             <header className='project-header'>
                 <h3>Quiz Game</h3>
             </header>
