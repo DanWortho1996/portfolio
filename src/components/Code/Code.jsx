@@ -14,7 +14,7 @@ const Code = () => {
     'Passwords': useRef(null),
     'Fetch Data-Base Connection': useRef(null),
     'PawPals': useRef(null),
-    'Quiz Game': useRef(null)
+    'Quiz Game': useRef(null),
   };
 
   useEffect(() => {
