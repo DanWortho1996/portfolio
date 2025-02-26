@@ -53,5 +53,10 @@ export const data = [
       title: 'PawPals',
       content: 'Final Project',
       link: 'https://prismatic-crumble-cf1d23.netlify.app/'
+    },
+    {
+      title: 'Quiz Game',
+      content: 'Project Vote',
+      link: 'https://taupe-maamoul-a4980f.netlify.app/'
     }
   ];

@@ -140,6 +140,17 @@ const Code = () => {
             </a>
             <p>In our last 2 weeks on the Master Course we was all put into a group and had to collab together on making a app. We decided to come up with a Dog Walking App Community Based, helping others wanting to connect with people and walk their dogs together, maybe even go on dog dates for the dogs. It is intended to be used for Dog Walkers who want to socialise with other Dog Walkers and to also give their own dogs a chance to meet other new dogs and play in the park.</p>
         </div>
+        <div id='Quiz-Game'  className='project' ref={projectRefs['Quiz-Game']}>
+            <header className='project-header'>
+                <h3>PawPals</h3>
+            </header>
+            <a href='https://taupe-maamoul-a4980f.netlify.app/' alt="quiz-project" target="_blank">Quiz Game</a>
+            <a href='https://taupe-maamoul-a4980f.netlify.app/' target="_blank">
+            <img src="/images/quiz-project.PNG" />
+            <img src="/images/quiz-project.PNG" />
+            </a>
+            <p>This is a project I worked on myself, in this project I have manually create, chose and added the question's myself. I have also shuffled the Q's so they always come out in a random order. With this being manually added though it does make it a little more straining but fun because i get to choose the Q's & A's. This gives me satisfaction knowing I have fact checked them all and users will be happy to play and learn. They is also a leaderboard but I have not set that up and I will not be setting the leaderboard up to work correctly either. </p>
+        </div>
       </div>
     </div>
   );
