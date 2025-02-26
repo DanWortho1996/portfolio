@@ -56,7 +56,7 @@ export const data = [
     },
     {
       title: 'Quiz Game',
-      content: 'Project Vote',
+      content: 'Project Brain',
       link: 'https://taupe-maamoul-a4980f.netlify.app/'
     }
   ];
