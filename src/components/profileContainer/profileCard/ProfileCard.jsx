@@ -62,7 +62,7 @@ const ProfileCard = () => {
           <h2>Contact Information</h2>
           <p>NOTICE: Please only contact me if you need advice or you have an idea you might need help with. I would also like for use to only contact me if it regards in a job opportunity. Feel free to browse the portfolio!</p>
           <br></br>
-          <p>Email: daniel.worthington96@outlook.com</p>
+          <p>Email: danielworthington2@gmail.com</p>
           <p>Phone: +447514 108 412</p>
         </section>
       </div>

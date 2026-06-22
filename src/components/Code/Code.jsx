@@ -154,5 +154,10 @@ const Code = () => {
     </div>
   );
 }
+const AICode = () => {
+  const AIGroup = {
+    'Atom': useRef(null),
+  };
+}
 
 export default Code;
